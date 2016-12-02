@@ -1,0 +1,155 @@
+body {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+a, a:hover, a:visited {
+  color: #FF5252;
+  /*text-decoration: none;*/
+  transition: color 0.12s ease-in-out;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+.global-navbar a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 12px;
+}
+
+.global-navbar a:hover {
+  color: #FF5252 !important;
+}
+
+section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #EEE;
+}
+
+section:last-child {
+  margin-bottom: 60px;
+}
+
+#bio .header {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+#bio .header .sup-text {
+  font-size: 14px;
+}
+
+#bio .body {
+  padding-top: 20px;
+}
+
+#bio article {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}
+
+#bio article .avatar {
+  order: 0;
+  flex-grow: 0;
+  flex-shrink: 1;
+  max-width: 220px;
+  min-width: 150px;
+  width: 50%;
+  padding-left: 10px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+#bio article .avatar img {
+  width: 100%;
+  height: auto;
+}
+
+#bio article .avatar .image-caption {
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  line-height: .8em;
+  font-size: 12px;
+}
+
+#bio article .bio-text {
+  order: 1;
+  flex-grow: 1;
+}
+
+.news-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.news-item {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  margin-bottom: 10px;
+}
+
+.news-item .time {
+  order: 0;
+  flex-grow: 0;
+  flex-shrink: 1;
+  display: block;
+  width: 20%;
+  min-width: 100px;
+  max-width: 100px;
+}
+
+.news-item .time span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding: 4px 6px;
+  border-radius: 4px;
+  border: none;
+  background-color: rgba(255, 82, 82, .12);
+}
+
+.news-item .text {
+  order: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding-left: 10px;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(51, 51, 51, 1);
+  z-index: 900;
+}
+
+footer .content {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #EEE;
+}
+
+footer .content p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/*
+ * Publications
+ */
+
+ /* General structure */
+ .post {
+   padding-top: 10px;
+ }
